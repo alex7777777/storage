@@ -7,14 +7,14 @@ FUNCTIONS
 
 
 # (0) Folder checking and creation
-def dirCreate(folder_list):
+def dirCreate(folder_list, folder_location):
   import pandas as pd
   import sys
   import os
   
   for folder in folder_list:
-    if not os.path.exists("/content/drive/My Drive/" + folder):
-      os.mkdir("/content/drive/My Drive/" + folder)
+    if not os.path.exists(folder_location + folder):
+      os.mkdir(folder_location + folder)
   return(print("The file structure is complete"))
 
 # dirCreate(gv.folders)
