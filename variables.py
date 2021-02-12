@@ -71,7 +71,7 @@ NR_TRAIN_DF    = 10
 ### ACTIVATE GLOBAL VARIABLES FROM COLAB FILE
 #
 # import sys
-# sys.path.append('/content/drive/My Drive/Colab Notebooks')
+# sys.path.append('/content/drive/My Drive/Colab Notebooks/' + PRJ_NAME)
 
 # import VARIABLES as gv
 # import FUNCTIONS as gf
