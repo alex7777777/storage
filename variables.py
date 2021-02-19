@@ -22,7 +22,7 @@ BUNDESLAND            = 'NRW'
 SELECTED_CITY         = 'Köln-Bonn'
 
 # Project name & folders
-PRJ_NAME     = 'bike_bonn'
+PRJ_NAME     = 'cross_retail_index'
 folders      = [PRJ_NAME, 
                 PRJ_NAME + "/data", 
                 PRJ_NAME + "/data/backup",
