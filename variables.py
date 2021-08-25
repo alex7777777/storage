@@ -22,7 +22,8 @@ BUNDESLAND            = 'NRW'
 SELECTED_CITY         = 'Köln-Bonn'
 
 # Project name & folders
-PRJ_NAME     = 'cross_retail_index'
+# PRJ_NAME     = 'cross_retail_index'
+PRJ_NAME     = 'ckmapi'
 folders      = [PRJ_NAME, 
                 PRJ_NAME + "/data", 
                 PRJ_NAME + "/data/backup",
